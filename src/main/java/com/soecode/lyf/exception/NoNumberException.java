@@ -5,12 +5,17 @@ package com.soecode.lyf.exception;
  */
 public class NoNumberException extends RuntimeException {
 
-	public NoNumberException(String message) {
-		super(message);
-	}
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
 
-	public NoNumberException(String message, Throwable cause) {
-		super(message, cause);
-	}
+    public NoNumberException(String message) {
+        super(message);
+    }
+
+    public NoNumberException(String message, Throwable cause) {
+        super(message, cause);
+    }
 
 }

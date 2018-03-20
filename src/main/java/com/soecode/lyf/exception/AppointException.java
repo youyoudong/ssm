@@ -5,12 +5,17 @@ package com.soecode.lyf.exception;
  */
 public class AppointException extends RuntimeException {
 
-	public AppointException(String message) {
-		super(message);
-	}
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
 
-	public AppointException(String message, Throwable cause) {
-		super(message, cause);
-	}
+    public AppointException(String message) {
+        super(message);
+    }
+
+    public AppointException(String message, Throwable cause) {
+        super(message, cause);
+    }
 
 }
